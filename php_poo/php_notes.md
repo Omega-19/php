@@ -59,3 +59,26 @@ echo Maclass::$proprieteStatique;
 - Créez une class `Programmer`; elle a une méthode `code` qui affiche "Je suis une programmer";
  
 Faites en sorte que les 3 méthodes present(), work(), et code(), soient accessibles depuis une instance de la classe Programmer;
+
+<!-- ERROR 
+
+**1- Error: Arrête le programme
+**2- Exception: n'arrête pas forcément 
+-->
+
+<!-- 
+**E_ERROR: les erreurs sont affichées par défaut
+**E_WARNING: les avertissements sont affichés par défaut
+**E_ALL: les erreurs et alertes sont affichées
+
+**affiche les avertissements quand: error_reporting(E_WARNING);
+
+//Ne plus afficher d 'erreur
+error_reporting();
+
+//Afficher toutes les erreurs
+error_reporting(-1);
+ -->
+
+ ## exception
+ L'erreur n'arrête pas forcément le travail en cours. On écrit par litéralement des erreurs mais on les met dans une condition
